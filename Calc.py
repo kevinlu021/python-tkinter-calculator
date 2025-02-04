@@ -20,6 +20,7 @@ def answer():
     ans=str(eval(operator))
     _input.set(ans)
     operator = ""
+    return
 
 label=Label(win,font=('ariel' ,20,'bold'),text='Calculator',bg='grey',fg='black')
 label.grid(columnspan=4)
